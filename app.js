@@ -12,5 +12,6 @@ gBtn.addEventListener('click' ,() =>{
 const post = (data) =>{
     console.log(data);
     image.setAttribute("src" , data.url);
-    title.innerHTML = data.author;
+    title.innerHTML = data.title;
+    author.innerHTML = data.author;
 }
